@@ -1,3 +1,5 @@
+//a character-based indexed tree storing all crawled URL and their content.
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
