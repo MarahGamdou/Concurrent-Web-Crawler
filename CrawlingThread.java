@@ -1,3 +1,4 @@
+//When finding a new url, such threads check existing found urls in Indexed URL Tree (IUT) to see whether it is a duplication. If not, it write the url (with its html content) into Buffered URL List (BUL).
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
