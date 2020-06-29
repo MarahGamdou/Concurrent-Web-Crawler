@@ -1,4 +1,4 @@
-this is a URL crawler which can efficiently crawl as many URL as possible.
+This is a URL crawler which can efficiently crawl as many URL as possible.
 
 Input: a list of seed URL 
 
