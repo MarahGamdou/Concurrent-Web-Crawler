@@ -1,3 +1,7 @@
+/*Such threads constantly read BUL and transfer the list into an IUT (for the first time) or a part of IUT, which shall support efficiently search for the existence of a specific URL in our result. The BUL has a size limit of 1K urls. Once an IBT find a BUL reaches its limit, it transfer it into (a part of) the tree and clear BUL. 
+-When a CT finds a BUL is full, it waits until BUL is cleared. 
+-When an IBT finds a BUL is not full, it waits until BUL is full.*/
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Logger;
