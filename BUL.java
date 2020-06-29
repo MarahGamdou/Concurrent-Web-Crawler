@@ -1,3 +1,4 @@
+//a list recording newly crawled URLs with their html content
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
