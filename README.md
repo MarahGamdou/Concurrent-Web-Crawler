@@ -50,4 +50,5 @@ Contributors names and contact info
 
 ## License
 
+[MIT](./LICENSE)
 
